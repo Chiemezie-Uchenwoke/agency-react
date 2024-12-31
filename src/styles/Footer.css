@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pri-color: #001A6E;
+    --sec-color: #074799;
+    --acc-color: #009990;
+    --acc-lite: #E1FFBB;
+    --white: #f6f6f6;
+  }
+
+.container{
+    width: 92%;
+    margin-inline: auto;
+}
+
+.top-margin{
+    margin-top: 5rem;
+}
+
+footer{
+    background-color: var(--sec-color);
+    padding: 2rem;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+
+@media (min-width: 1000px){
+    .container{
+        width: 90%;
+    }
+
+    .top-margin{
+        margin-top: 7rem;
+    }
+}
