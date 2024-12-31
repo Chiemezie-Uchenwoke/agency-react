@@ -52,6 +52,10 @@ header button{
         margin-top: 7rem;
     }
 
+    header > div{
+        padding: 1rem 0;
+    }
+
     header .mobile{
         display: none;
     }
