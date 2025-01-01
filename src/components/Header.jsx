@@ -18,6 +18,13 @@ const Header = () => {
                 {/* mobile */}
                 <div className="mobile">
                     <button><i className="fa-solid fa-bars"></i></button>
+
+                    <ul className="dropdown">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
                 </div>
             </div>
         </header>
